@@ -1,0 +1,26 @@
+.header {
+    background-color: #422ED4;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.imageName {
+    Width: 138px;
+    Height :17.07px;
+    padding: 0px;
+    margin-top: 17.97px;
+    margin-bottom: 23.96px;
+    margin-left: 10px;
+    line-height: 18.78px;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  .imageLogo {
+    Width: 43px;
+    Height: 43px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 160px;
+  }
