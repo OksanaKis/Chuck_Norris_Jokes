@@ -24,3 +24,87 @@
     margin-bottom: 8px;
     margin-left: 160px;
   }
+
+  .titleCategories {
+    color: #1C1C39;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 58.7px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.eachButton {
+  background-color: #FFFFFF;
+  width: 170px;
+  height: 57px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 19px 16px;
+  font-size: 16px;
+  line-height: 18.78px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #422ED4;
+  color: #FFFFFF;
+}
+
+.containerText {
+  background-color: #422ED4;
+  width: 1120px;
+  height: 162px;
+  margin-top: 165px;
+  margin-bottom: 144px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  filter: drop-shadow(0 0 10.02px rgba(80, 76, 103, 0.035));
+}
+
+.containerText:hover {
+  
+}
+
+.jokeResult {
+  color: #FFFFFF;
+  width: 1072px;
+  height: 114px;
+  position: absolute;
+  margin: 24px;
+  font-size: 20px;
+  line-height: 150%;
+  vertical-align: top;
+}
+
+p {
+  line-height: 30px;
+  text-align: left;
+}
+
+.imageChuckRight {
+  position: relative;
+  margin-top: 12px;
+  margin-left: 1134px;
+}
+
+.imageChuckNorris {
+  position: absolute;
+  Width: 122px;
+  Height:258px;
+}
