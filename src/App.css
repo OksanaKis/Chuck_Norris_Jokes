@@ -1,38 +1,39 @@
 .header {
-    background-color: #422ED4;
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  background-color: #422ed4;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 .imageName {
-    Width: 138px;
-    Height :17.07px;
-    padding: 0px;
-    margin-top: 17.97px;
-    margin-bottom: 23.96px;
-    margin-left: 10px;
-    line-height: 18.78px;
-    font-size: 16px;
-    color: #FFFFFF;
-  }
+  width: 138px;
+  height: 17.07px;
+  padding: 0px;
+  margin-top: 17.97px;
+  margin-bottom: 23.96px;
+  margin-left: 10px;
+  line-height: 18.78px;
+  font-size: 16px;
+  color: #ffffff;
+}
 
-  .imageLogo {
-    Width: 43px;
-    Height: 43px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: 160px;
-  }
+.imageLogo {
+  width: 43px;
+  height: 43px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 160px;
+}
 
-  .titleCategories {
-    color: #1C1C39;
-    text-align: center;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 58.7px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+.titleCategories {
+  color: #1c1c39;
+  text-align: center;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 58.7px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .navButtons {
@@ -46,7 +47,7 @@
 }
 
 .eachButton {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 170px;
   height: 57px;
   border-radius: 20px;
@@ -60,12 +61,12 @@
 }
 
 button:hover {
-  background-color: #422ED4;
-  color: #FFFFFF;
+  background-color: #422ed4;
+  color: #ffffff;
 }
 
 .containerText {
-  background-color: #422ED4;
+  background-color: #422ed4;
   width: 1120px;
   height: 162px;
   margin-top: 165px;
@@ -77,22 +78,21 @@ button:hover {
   filter: drop-shadow(0 0 10.02px rgba(80, 76, 103, 0.035));
 }
 
-.containerText:hover {
-  
-}
-
 .jokeResult {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 1072px;
   height: 114px;
   position: absolute;
   margin: 24px;
-  font-size: 20px;
   line-height: 150%;
   vertical-align: top;
 }
 
 p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
   line-height: 30px;
   text-align: left;
 }
@@ -105,6 +105,6 @@ p {
 
 .imageChuckNorris {
   position: absolute;
-  Width: 122px;
-  Height:258px;
+  width: 122px;
+  height: 258px;
 }
